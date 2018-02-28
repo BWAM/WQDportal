@@ -1,5 +1,5 @@
 # Program:  SBU-reading tables
-# Purpose: reading and checking SBU tables
+# Purpose: Creating Biomonitoring Layer for the Info Locator Map
 # Programmer: Alene Onion 
 # Date: 2/27/2018
 
