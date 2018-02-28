@@ -1,7 +1,7 @@
 # Program:  SBU-reading tables
-# Purpose: reading and checking SBU tables
+# Purpose: Creating Biomonitoring Layer for the StreamData google map
 # Programmer: Alene Onion 
-# Date: 11/9/2017
+# Date: 2/28/2018
 
 #tidy up. This removes everything stored in short term memory
 rm(list=ls())
