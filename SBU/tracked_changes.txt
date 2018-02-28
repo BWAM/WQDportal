@@ -1,0 +1,13 @@
+2018/2/26
+- Created a table of missing taxa that must be added to the master taxa table every time we run the BAP package
+- modified the species table thusly:
+species$MACRO_GENSPECIES<-toupper(species$MACRO_GENSPECIES)
+species$MACRO_GENSPECIES<-gsub("HYDROPSYCHE SLOSSONAE","CERATOPSYCHE SLOSSONAE",species$MACRO_GENSPECIES)
+species$MACRO_GENSPECIES<-gsub("HYDROPSYCHE SPARNA","CERATOPSYCHE SPARNA",species$MACRO_GENSPECIES)
+species$MACRO_GENSPECIES<-gsub("STENONEMA VICARIUM","MACCAFFERTIUM VICARIUM",species$MACRO_GENSPECIES)
+species$MACRO_GENSPECIES<-gsub("THIENEMANNIELLA X.+","THIENEMANNIELLA XENA",species$MACRO_GENSPECIES)
+species$MACRO_GENSPECIES<-gsub("UNDETERMINED SPHAERIIDAE","UNDETERMINED PISIDIIDAE",species$MACRO_GENSPECIES)
+species$MACRO_GENSPECIES<-gsub("STEMPELLI SP.","STEMPELLINA SP.",species$MACRO_GENSPECIES)
+
+2018/2/27
+- Added elevation to the Sites table and archived the previous version
